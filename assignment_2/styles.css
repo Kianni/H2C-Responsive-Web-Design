@@ -1,0 +1,64 @@
+#first {
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+
+#second {
+    background-color: yellow;
+    color: darkslategray;
+}
+
+#third {
+    background-color: darksalmon;
+    color: forestgreen;
+}
+
+#fourth {
+    background-color: midnightblue;
+    color: lightcyan;
+}
+
+ul {
+    font-style: italic;
+    font-size: small;
+}
+a {
+    text-decoration: none;
+}
+
+
+#first a, a:link {
+    border: 0px white solid;
+    color:whitesmoke;
+  }
+  
+#first a:hover {
+    border: 1px white solid;
+}
+
+#second a, a:link {
+    border: 0px darkslategray solid;
+    color: darkslategray;
+  }
+  
+#second a:hover {
+    border: 1px darkslategray solid;
+}
+
+#third a, a:link {
+    border: 0px forestgreen solid;
+    color: forestgreen;
+  }
+  
+#third a:hover {
+    border: 1px forestgreen solid;
+}
+
+#fourth a, a:link {
+    border: 0px lightcyan solid;
+    color: lightcyan;
+  }
+  
+#fourth a:hover {
+    border: 1px lightcyan solid;
+}
