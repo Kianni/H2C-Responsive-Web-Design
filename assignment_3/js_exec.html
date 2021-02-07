@@ -23,7 +23,7 @@
         const changeColorToLightblue = () => document.getElementById("first").style.backgroundColor = "lightblue";
         const resetColorToWhite = () => document.getElementById("first").style.backgroundColor = "white";
         
-        // insert text form input field to paragraph then input field lose the focus
+        // insert any text form the input field to the paragraph when the input field loses the focus
         document.getElementById("somethingImportant").addEventListener("blur", insertContent);
         function insertContent() {
             let insertion = document.getElementById("somethingImportant").value;
