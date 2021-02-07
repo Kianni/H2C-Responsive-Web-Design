@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS exercises</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="#">
+    </head>
+    <body id="first">
+        <h1>Polar star ✧</h1>
+        <p>get more knowledge about <a href="https://en.wikipedia.org/wiki/Pole_star">Polar star</a></p>
+        <p>and read about  <a href="https://en.wikipedia.org/wiki/Celestial_navigation">celestial navigation</a></p>
+
+        <button onclick="changeColorToLightblue()">Change background color to lightblue</button>
+        <button onclick="resetColorToWhite()">Reset color to white</button>
+
+
+        <input type="text" id="somethingImportant">
+        <p id="freedomOfSpeech"></p>
+
+        <script>
+        
+        // change color of the background
+        const changeColorToLightblue = () => document.getElementById("first").style.backgroundColor = "lightblue";
+        const resetColorToWhite = () => document.getElementById("first").style.backgroundColor = "white";
+        
+        // insert text form input field to paragraph then input field lose the focus
+        document.getElementById("somethingImportant").addEventListener("blur", insertContent);
+        function insertContent() {
+            let insertion = document.getElementById("somethingImportant").value;
+            document.getElementById("freedomOfSpeech").innerHTML = insertion;
+        }
+        </script>        
+    </body>
+</html>
